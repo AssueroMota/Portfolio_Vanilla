@@ -678,11 +678,11 @@
 }
 
 .section_projetos .container_projetos .card_projeto .card_descricao .card_nav .github {
-    background-color: rgb(166, 0, 255);
+    background-color: var(--githubF);
 }
 
 .section_projetos .container_projetos .card_projeto .card_descricao .card_nav .site {
-    background-color: var(--ciano-default-color);
+    background-color: var(--ciano-hover);
 }
 
 .section_projetos .container_button {

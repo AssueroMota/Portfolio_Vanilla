@@ -36,6 +36,7 @@ body {
     --css3: rgb(71, 71, 240);
     --bootstrap: rgb(185, 28, 185);
     --javascript:yellow;
+    --githubF:#6262f1;
 }
 
 .container_header, .section_sobre, .section_qualificacoes, .section_servico, .section_tech, .section_projetos, .section_contato {
