@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Front-end com experiências em React e JavaScript Vanilla">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <title>Assuero Mota | Desenvolvedor front-end</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container_header">
+            <a href="index.html" class="link" aria-label="link para página atual"><img src="img/logo.png"
+                    alt="Logo principal" class="logo_header" width="7rem" height="auto"></a>
+            <nav class="menu_header">
+                <button class="button_header" aria-expanded="false" aria-controls="menu" aria-haspopup="true"
+                    aria-label="Abrir menu"><span class="menu_icone-header"></span></button>
+                <ul class="list_header" role="menu">
+                    <li class="iten_header"><a href="#principal" class="link_iten">Home</a></li>
+                    <li class="iten_header"><a href="#sobre" class="link_iten">Sobre</a></li>
+                    <li class="iten_header"><a href="#qualificacoes" class="link_iten">Qualificações</a></li>
+                    <li class="iten_header"><a href="#conhecimento" class="link_iten">Conhecimento</a></li>
+                    <li class="iten_header"><a href="#servicos" class="link_iten">Serviços</a></li>
+                    <li class="iten_header"><a href="#projeto" class="link_iten">Projetos</a></li>
+                    <li class="iten_header"><a href="#contato" class="link_iten">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section_main" id="principal">
+            <div class="container_main">
+                <p class="destaque_main">A tecnologia é a força motriz por trás da mudança constante</p>
+                <h2 class="titulo_main">Olá, me chamo <span class="destaque">Assuero </span></h2>
+                <p class="cargo_main">Front-end developer</p>
+                <p class="descricao_main">Seja bem-vindo(a) por aqui. Espero ajudá-lo(a) de alguma forma.</p>
+                <a href="#sobre"><button class="button">Saiba mais</button></a>
+            </div>
+            <nav class="navigation_main">
+                <ul class="list_main">
+                    <!-- <li class="iten_main"><a href="https://www.instagram.com/viniciuss.dev/" class="link" target="_blank" aria-label="Visitar Instagram de Vinícius"><i class="fa-brands fa-instagram icons"></i></a></li> -->
+                    <li class="iten_main"><a href="https://github.com/AssueroMota" class="link" target="_blank"
+                            aria-label="Visitar Github de Vinícius"><i class="fa-brands fa-github icons"></i></a></li>
+                    <li class="iten_main"><a href="https://www.linkedin.com/in/AssueroMota/" class="link"
+                            target="_blank" aria-label="Visitar Linkedin de Assuero"><i
+                                class="fa-brands fa-linkedin icons"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section_sobre" id="sobre">
+            <img src="img/fotoperfil.png" class="foto_perfil" alt="Foto de Assuero">
+            <div class="container_sobre">
+                <p class="texto_destaque"><img src="img/arrow-rigth.png" class="arrow"> DESENVOLVEDOR FRONT-END</p>
+                <h3 class="titulo_sobre">Desenvolvedor Front-end focado em React e JavaScript puro.</h3>
+                <p class="descricao_sobre">Meu nome é Assuero, tenho 29 anos e estou na área de tecnologia há mais de 4
+                    anos. Tenho me dedicado no último ano ao desenvolvimento de software com foco em programação
+                    web e banco de dados, e estou procurando uma oportunidade como desenvolvedor Jr.</p>
+                <p class="descricao_sobre">Meu currículo completo com informações mais detalhadas sobre minha
+                    experiência está disponível abaixo. Caso prefira, podemos agendar uma chamada através do meu e-mail,
+                    também disponibilizado aqui.</p>
+                <div class="container_button">
+                    <a href="document/AssueroCv.pdf" target="_blank" aria-label="Baixar curriculo de Assuero"
+                        class="link">
+                        <button class="button_cv">Baixar CV <i class="fa-solid fa-download"></i></button>
+                    </a>
+                    <button class="button_email botaoCopiar" value="Assueromota@hotmail.com" type="button"
+                        aria-label="Copiar email de Vinícius">Copiar e-mail</button>
+                </div>
+            </div>
+        </section>
+        <section class="section_destaque">
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 02</p>
+                <p class="destaque_descricao">Experiência de trabalho</p>
+            </div>
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 04</p>
+                <p class="destaque_descricao">Cursos extracurriculares</p>
+            </div>
+            <div class="bloco_destaque bloco-left">
+                <p class="numero"><span class="destaque_numero">+</span> 02</p>
+                <p class="destaque_descricao">Linguagens de Prog</p>
+            </div>
+
+            <div class="bloco_destaque bloco-rigth">
+                <p class="numero"><span class="destaque_numero">+</span> 13</p>
+                <p class="destaque_descricao">Projetos concluídos</p>
+            </div>
+        </section>
+        <section class="section_qualificacoes" id="qualificacoes">
+            <header class="cabecalho">
+                <h2 class="titulo">Minhas qualificações e experiências</h2>
+            </header>
+            <div class="bloco_button">
+                <button class="button button_educacao educacao" data-id="educacao" aria-label="Qualificações"><i
+                        class="fa-solid fa-award"></i> Qualificações</button>
+                <button class="button button_work" data-id="work" aria-label="Trabalhos"><i
+                        class="fa-solid fa-briefcase"></i> Experiências</button>
+            </div>
+            <div class="container_qualificacoes">
+                <ul class="lista" id="educacao">
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/alura-logo.svg" alt="Curso da alura" class="curso">
+                        </div>
+                        <p class="cargo">Desenvolvimento Front-end</p>
+                        <p class="descricao"> tive a oportunidade de me aprofundar em tecnologias importantes como Html,
+                            Css, JavaScript, React, Tailwind CSS, Bootstrap</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2022-2023</p>
+                        <a href="https://cursos.alura.com.br/certificate/c06dda6a-e746-4ccb-9533-e8cccd12ecf5"
+                            target="_blank" class="link" download="Certificado Alura" aria-label="Certificado Alura">
+                            <button class="button_certificado true" aria-label="Visualizar certificado">Visualizar
+                                certificado</button>
+                        </a>
+                    </li>
+                    <li class="li left qualificacao_left">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/logo-grau.png" alt="Curso da Grau-Tech" class="curso" width="115rem">
+                        </div>
+                        <p class="cargo">Desenvolvimento de Sistema</p>
+                        <p class="descricao">Atualmente estou cursando Desenvolvimento de Sistemas na Grau Técnico, onde
+                            estou aprendendo diversas linguagens de programação, como Java e JavaScript, além de
+                            estruturas de dados, algoritmos e orientação a objetos, com o objetivo de me tornar um
+                            programador qualificado e capaz de desenvolver soluções inovadoras.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2022-2023</p>
+                        <button class="button_certificado button-progresso" disabled>Em progresso</button>
+                    </li>
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/logo-unibra-azul.png" alt="Curso unibra" class="curso unibra">
+                        </div>
+                        <p class="cargo">Tecnólogo em Redes e Sistemas de computadores</p>
+                        <p class="descricao">Durante minha graduação, adquiri habilidades em lógica de programação,
+                            bancos de dados MySQL, linguagem Java, programação de servidores, sistemas operacionais,
+                            virtualização, cloud computing e metodologias ágeis para gestão de projetos de redes e TI.
+                            Busquei aprofundar meus conhecimentos em programação orientada a objetos para aplicá-la em
+                            meus projetos de forma eficaz.</p>
+                        <p class="conclusao">
+                            <giti class="fa-regular fa-calendar-days"></giti> 2018-2021
+                        </p>
+                        <a href="document/#" target="_blank" class="link" download="Certificado Redes"
+                            aria-label="Certificado Tecnólogo Redes">
+                            <button class="button_certificado button-progresso" disabled
+                                aria-label="Visualizar certificado">Aguardando certificado</button>
+                        </a>
+                    </li>
+                    <li class="li left qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/logo-nassau.png" alt="Curso Tecnico Informatica" class="curso nassau">
+                        </div>
+                        <p class="cargo">Ensino Técnico, Informática</p>
+                        <p class="descricao">Curso técnico em informática com ênfase em solução de problemas em
+                            computadores e redes, com conhecimentos em configuração e manutenção de hardware e software,
+                            sistemas operacionais, redes de computadores, segurança de redes e linguagens de programação
+                            Básica.</p>
+                        <p class="conclusao">
+                            <giti class="fa-regular fa-calendar-days"></giti> 2015-2017
+                        </p>
+                        <a href="document/CursoTecnicoInformatica.PDF" target="_blank" class="link"
+                            aria-label="Certificado Tecnico Informática">
+                            <button class="button_certificado true" target="_blank"
+                                aria-label="Visualizar certificado">Visualizar
+                                Certificado</button>
+                        </a>
+                    </li>
+
+                    <li class="li rigth qualificacao_rigth">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <img src="img/Marista.png" alt="Curso Tecnico Informatica" class="curso marista">
+                        </div>
+                        <p class="cargo">Ensino Profissionalizante, Informática</p>
+                        <p class="descricao">Assistência técnica, testes de funcionamento e monitoramento de sistemas
+                            para garantir sua operacionalidade.</p>
+                        <p class="conclusao">
+                            <giti class="fa-regular fa-calendar-days"></giti> 2014
+                        </p>
+                        <a href="document/CursoTecnicoInformatica.PDF" target="_blank" class="link"
+                            aria-label="Certificado Tecnico Informática">
+                            <button class="button_certificado true" target="_blank"
+                                aria-label="Visualizar certificado">Visualizar
+                                Certificado</button>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="lista lista_work" id="work">
+                    <li class="li item-work">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                            <img src="img/Litoraneus.png" alt="Plataforma de intermédio Woarkana" class="curso"
+                                width="180rem">
+                        </div>
+                        <p class="cargo">Analista de Sistema T.I</p>
+                        <p class="descricao">Nesse trabalho, Utilizei diversas
+                            linguagens de programação e marcação, como PHP, JavaScript, HTML, CSS, pude
+                            contribuir para o desenvolvimento de tabelas
+                            personalizadas e dashboards utilizando SQL e Excel, visando a tomada de decisão informada e
+                            precisa.
+                            Além disso, gerenciei recursos de TI, incluindo usuários, computadores e softwares,
+                            fornecendo suporte técnico em diferentes segmentos tecnológicos, e
+                            serviços de Active Directory e políticas de segurança foram implementados para garantir a
+                            segurança dos dados.</p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2022 Junho - 2023-(Atualmente)
+                        </p>
+                    </li>
+                    <li class="li item-work">
+                        <div class="header_qualificacoes">
+                            <i class="fa-solid fa-briefcase icon"></i>
+                            <img src="img/eletrobras-chesf-logo.png" alt="Plataforma de intermédio Woarkana"
+                                class="curso" width="130rem">
+                        </div>
+                        <p class="cargo">Auxiliar Analista de Dados</p>
+                        <p class="descricao">Nesse trabalho, pude contribuir Consultas e Administração em banco de dados
+                            SQL, Desenvolvimento de Dashboards PowerBI e Excel para monitoramento e análise de dados,
+                            Criação de Scripts em VBA para automação de tarefas e melhoria de rotinas.
+                        </p>
+                        <p class="conclusao"><i class="fa-regular fa-calendar-days"></i> 2021 Janeiro - 2022 Junho </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section_tech" id="conhecimento">
+            <h2 class="titulo_tech">Tecnologias</h2>
+            <div class="container_tech">
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="nome_tech">Html 5</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="nome_tech">Css 3</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <p class="nome_tech">BootStrap</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="img/tailwind-css.svg" class="tailwind" alt="Tailwind CSS">
+                    <p class="nome_tech">Tailwind Css</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="nome_tech">JavaScript</p>
+                </div>
+                <div class="bloco_tech">
+                    <img src="img/typescript.svg" class="typescript" alt="TypeScript">
+                    <p class="nome_tech">TypeScript</p>
+                </div>
+                <div class="bloco_tech">
+                    <i class="fa-brands fa-react"></i>
+                    <p class="nome_tech">React</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_servico" id="servicos">
+            <header class="cabecalho_servico">
+                <h2 class="titulo">Meus <span class="destaque">serviços</span> de desenvolvimento web </h2>
+                <p class="descricao">Aqui estão algumas metodologias que aplico nos meus projetos.</p>
+            </header>
+            <div class="container_servico">
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento Web</h3>
+                    <p class="descricao">Desenvolvimento de sites responsivos e acessíveis, utilizando tecnologias
+                        modernas como HTML5, CSS3 e JavaScript.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">Desenvolvimento de animações</h3>
+                    <p class="descricao">Desenvolvimento de animações em CSS e JavaScript para melhorar a experiência do
+                        usuário.</p>
+                </div>
+                <div class="bloco_servico">
+                    <h3 class="titulo">FrameWorks</h3>
+                    <p class="descricao">Desenvolvimento de aplicações web utilizando frameworks como React.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_projetos" id="projeto">
+            <h2 class="titulo_projeto">Projetos <span class="destaque">React</span></h2>
+            <div class="container_projetos">
+                <div class="card_projeto">
+                    <img src="img/React-Cep.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">React Address Locator</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/AssueroMota/React-Address-Locator" class="link" target="_blank"
+                                aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://assueromota.github.io/WebLocalizador/" class="link" target="_blank"
+                                aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/JogoDaVelha.png" alt="JogoDaVelha" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">React-Tic-Tac-Toe-Game</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/AssueroMota/React-Tic-Tac-Toe-Game/tree/main" class="link"
+                                target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://assueromota.github.io/React-Game-Site/" class="link" target="_blank"
+                                aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="card_projeto">
+                    <img src="img/Localizador de Produtos.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">ChatBot</h3>
+                        <!-- <nav class="card_nav">
+                            <a href="https://github.com/ViniciusTorresof/Pagina-de-cadastro" class="link"
+                                target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://pagina-de-cadastroof.netlify.app/" class="link" target="_blank"
+                                aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav> -->
+                    </div>
+                </div>
+
+                <div class="card_projeto">
+                    <img src="img/Localizador de Produtos.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card LoadingProject">Shopping Cart with React JS</h3>
+                        <!-- <nav class="card_nav">
+                            <a href="#" class="link"
+                                target="_blank" aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="#" class="link" target="_blank"
+                                aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav> -->
+                    </div>
+                </div>
+            </div>
+            <div class="container_button">
+            </div>
+        </section>
+        <section class="section_projetos" id="projeto">
+            <h2 class="titulo_projeto">Projetos <span class="destaque">Html + CSS + JS</span></h2>
+            <div class="container_projetos">
+                <div class="card_projeto">
+                    <img src="img/ProjectTech.png" alt="" class="imagem_fundo">
+                    <div class="card_descricao">
+                        <h3 class="titulo_card">ServiceTechInfo</h3>
+                        <nav class="card_nav">
+                            <a href="https://github.com/AssueroMota/ServiceTechInfo" class="link" target="_blank"
+                                aria-label="Abrir Github">
+                                <button class="button github">Github</button></a>
+                            <a href="https://assueromota.github.io/ServiceTechInfo/" class="link" target="_blank"
+                                aria-label="Abrir página">
+                                <button class="button site">Site</button>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section_contato" id="contato">
+            <header class="cabecalho_contato">
+                <h2 class="titulo titulo_contato">Fale comigo</h2>
+                <p class="descricao descricao_contato">Você pode entrar em contato comigo por e-mail ou pelas minhas
+                    redes sociais para conversarmos diretamente.</p>
+            </header>
+            <div class="lista_rede">
+                <div class="item_rede">
+                    <a href="https://www.linkedin.com/in/assueromota/" class="link" target="_blank"
+                        aria-label="Abrir Linkedin de Assuero">
+                        <i class="fa-brands fa-linkedin icon"></i> Linkedin
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+                <div class="item_rede">
+                    <a href="https://github.com/AssueroMota" class="link" target="_blank"
+                        aria-label="Abrir Github de Assuero">
+                        <i class="fa-brands fa-github icon"></i> Github
+                        <i class="fa-solid fa-check check"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <a href="#principal" class="link" aria-label="Voltar para o topo da página">
+            <button class="botao_topo"><i class="fa-solid fa-angles-up icone"></i>Voltar ao topo</button>
+        </a>
+    </main>
+    <footer class="footer">
+        <h2 class="titulo">Assuero Mota © 2023</h2>
+    </footer>
+    <script src="https://kit.fontawesome.com/b4aee6e34b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
